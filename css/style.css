@@ -1,0 +1,91 @@
+body{
+	background-image:url(../images/backgraound.jpg);
+	width: 100%;
+}
+nav{
+	/*background-image: url(../images/banner1.jpg);*/
+	background-color: blue;
+	width: 100%;
+  
+}
+.container{
+	font-family: normal;
+	font-size: 30px;
+	min-height: 20px;
+    overflow: hidden;
+}
+.headerlogo {
+	width: 5%;
+	margin-left: 60px;	
+	float: left;
+}
+.header {
+	margin-right: 40px;
+	margin-top: 15px;
+	text-align: right;
+	width: 65%;
+	float: right;
+}
+h2, .h2{
+	text-align: center;
+	color: white;
+}
+.wrapper {
+	/*border: 2px solid blue;*/
+	overflow: hidden;
+	min-height: 500px;
+	/*width: 100%;*/
+}
+.shape-content {
+	
+}
+
+.shapecircle {
+  height: 150px;
+  width: 150px;
+  margin: 30px;
+  background-color: #808080;
+  border-radius: 50%;
+  float: left;
+}
+
+.shapesquare {
+	margin: 30px;
+  height: 150px;
+  width: 150px;
+  background-color: #808080;
+  float: left;
+}
+
+.shapetriangle {
+	 width: 0;
+	height: 0;
+	margin: 30px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid #808080;
+	float: left;
+
+}
+.oval{
+	  width: 200px;
+      height: 100px;
+      margin: 50px;
+      background:#808080 ;
+      border-radius: 100px / 50px;
+      float: left;
+}
+footer{
+	min-height: 50px;
+	width: 100%;
+	margin-top: 5px;
+}
+.footer{
+	background-color: gray;
+	min-height: 90px;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+
